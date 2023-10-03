@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#login-form {
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#protected-content {
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
