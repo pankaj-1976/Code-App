@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Authentication</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="login-form">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="button" id="login-button">Login</button>
+        </form>
+    </div>
+
+    <div id="protected-content" style="display: none;">
+        <h1>Welcome to the Protected Content</h1>
+        <p>This content is protected.</p>
+        <button id="logout-button">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
