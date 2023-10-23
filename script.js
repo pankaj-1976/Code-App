@@ -27,7 +27,7 @@ loginButton.addEventListener("click", () => {
 
     if (user) {
         loginForm.style.display = "none";
-        protectedContent.style display = "block";
+        protectedContent.style.display = "block";
     } else {
         alert("Invalid username or password. Please try again.");
     }
