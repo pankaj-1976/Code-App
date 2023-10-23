@@ -12,8 +12,15 @@ const loginForm = document.getElementById("login-form");
 const protectedContent = document.getElementById("protected-content");
 
 loginButton.addEventListener("click", () => {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+    const username = usernameInput.value;
+    const password = passwordInput.value;
+
+    if (!username || !password) {
+        alert("Please enter both username and password.");
+        return;
+    }
 
     // Check if the provided username and password match any of the users
     const user = users.find((user) => user.username === username && user.password === password);
