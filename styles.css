@@ -37,4 +37,16 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     width: 300px;
+    color: black;
+    background: #3085d6;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    transition: 0.5s;
 }
+
+#protected-content:hover {
+    color: white;
+    box-shadow: 0 5px 15px #10526e;
+  }
+
